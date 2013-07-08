@@ -1,0 +1,177 @@
+    1  history
+    2  exit
+    3  ls
+    4  . startup.sh
+    5  ps -ef
+    6  kill -9 7202
+    7  kill -9 7201
+    8  kill -9 7199
+    9  yes | nl | head | tail -n +10 | awk '{print $1}'
+   10  man xargs
+   11  wget https://spark-public.s3.amazonaws.com/startup/data/NC_007779.ptt
+   12  ls
+   13  vi NC_007779.ptt  
+   14  curl -s https://spark-public.s3.amazonaws.com/startup/data/NC_007779.ptt | wc -l
+   15  vi NC_007779.ptt  
+   16  man curl
+   17  vi NC_007779.ptt  
+   18  grep -v protein NC_007779.ptt | wc -l
+   19  grep protein NC_007779.ptt | wc -L
+   20  grep protein NC_007779.ptt | wc -l
+   21  cat NC_007779.ptt | grep protein | wc -l
+   22  awk 'NR==123' NC_007779.ptt
+   23  cat NC_007779.ptt | head -123 | tail -1
+   24  sed -n '123p' NC_007779.ptt
+   25  wc NC_007779.ptt
+   26  wc NC_007779.ptt &
+   27  echo `wc -c NC_007779.ptt`
+   28  wc -w NC_007779.ptt
+   29  vi file.txt
+   30  wc -w file.txt
+   31  echo `wc -c file.txt`
+   32  wc file.txt
+   33  pwd
+   34  ls -al
+   35  cd setup
+   36  git log
+   37  pwd
+   38  cd ..
+   39  ls
+   40  pwd
+   41  which heroku
+   42  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+   43  heroku login
+   44  ssh-keygen -t rsa
+   45  git clone https://github.com/heroku/node-js-sample.git
+   46  ls
+   47  cd node-js-sample/ 
+   48  ls
+   49  heroku create
+   50  git push heroku master
+   51  cd ..
+   52  ssh-keygen -t rsa
+   53  heroku keys:add
+   54  cd .ssh
+   55  ls
+   56  vi id_rsa.pub
+   57  cd ..
+   58  cd node-js-sample/ 
+   59  heroku create
+   60  git push heroku master
+   61  yes
+   62  ls
+   63  cd ..
+   64  cd node-js-sample/ 
+   65  git push --mirror https:/github.com/JohnGouveia/bitstarter
+   66  git push --mirror https://github.com/JohnGouveia/bitstarter
+   67  git push --mirror https://github.com/JohnGouveia/bitstarter
+   68  cd ..
+   69  mkdir bitstarter
+   70  git init
+   71  pwd
+   72  cp node-js-sample/* bitstarter/.
+   73  mkdir bitstarter/node_modules
+   74  cp node-js-sample/node_modules/* bitstarter/node_modules/.
+   75  mkdir bitstarter/node_modules/express 
+   76  cp node-js-sample/node_modules/express/* bitstarter/node_modules/express/.
+   77  rm -rf bitstarter
+   78  cp -r node-js-sample/ bitstarter
+   79  cd bitstarter/ 
+   80  ls -al
+   81  rm -rf .git
+   82  cd node_modules/ 
+   83  ls 0al
+   84  ls -al
+   85  cd express
+   86  ls -al
+   87  cd ../../...
+   88  cd ../..
+   89  git init
+   90  git add *
+   91  git status
+   92  git commit -m "original node code"
+   93  bit remote add origin git@github.com:JohnGouveia/bitstarter.git
+   94  git remote add origin git@github.com:JohnGouveia/bitstarter.git
+   95  git push -u origin master
+   96  heroku create
+   97  git push heroku master
+   98  ls
+   99  vi web.js
+  100  git add web.js
+  101  git commit -m "Updated web.js"
+  102  git push heroku master
+  103  vi index.html
+  104  vi web.js
+  105  git add index.html
+  106  git commit -m "Added index.html"
+  107  git push heroku master
+  108  history
+  109  git add web.js
+  110  git commit -m "Updated web.js"
+  111  vi web.js
+  112  npm --version
+  113  cp web.js j.js
+  114  vi j.js
+  115  node j.js
+  116  vi j.js
+  117  node j.js
+  118  vi j.js
+  119  node j.js
+  120  vi j.js
+  121  node j.js
+  122  vi j.js
+  123  node j.js
+  124  vi j.js
+  125  node j.js
+  126  vi j.js
+  127  node j.js
+  128  cat index.html
+  129  vi j.js
+  130  node j.js
+  131  vi j.js
+  132  node j.js
+  133  vi j.js
+  134  node j.js
+  135  vi j.js
+  136  vi web.js
+  137  git add jjs
+  138  git add j.js
+  139  git add web.js
+  140  git commit -m "here goes nothing"
+  141  history
+  142  git push heroku master
+  143  git push origin master
+  144  vi index.html
+  145  git commit -m "big index.html"
+  146  git add index.html
+  147  git commit -m "big index.html"
+  148  history
+  149  git push heroku master
+  150  git push origin master
+  151  vi index.html
+  152  git add index.html
+  153  history
+  154  git push heroku master
+  155  git commit -m "personalizing index.html"
+  156  git push heroku master
+  157  git push origin master
+  158  npm install cheerio
+  159  npm install commander
+  160  vi grader.js
+  161  vi checks.json
+  162  head -n3 index.html
+  163  cat checks.json
+  164  ./grader.js --checks checks.json  --file index.html
+  165  ll
+  166  chmod +x grader.js
+  167  ll
+  168  ./grader.js --checks checks.json  --file index.html
+  169  git status
+  170  git add checks.json grader.js 
+  171  git commit -m "our grader and checks"
+  172  git push origin master
+  173  vi checks.json
+  174  ./grader.js --checks checks.json  --file index.html
+  175  npm install restler
+  176  vi grader.js
+  177  history > myhistory.txt
